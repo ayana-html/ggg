@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.nav-bar {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #F2F2F2;
+    height: 50px;
+    width: 320px;
+    margin-left: 550px;
+    border-radius: 45px;
+    margin-top: 15px;
+    position: fixed;
+}
+
+
+.nav-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    width: 100px;
+    height: 30px;
+    margin-top: -10px;
+}
+
+
+.nav-button:hover {
+    background-color: #ccc;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.img{
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+img{
+    padding: 7px;
+    border-radius: 15px;
+}
+
+.words{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 60px;
+    padding: 190px;
+}
+
+.words .line{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    font-size:small;
+    margin-top: 40px;
+    gap: 20px;
+    border-radius: 40px;
+}
+
+.words .line .iwinde{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: #79717A;
+    text-decoration: none;
+    width: 400px;
+    height: 30px;
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px;
+    border:none;
+    background-color: #F2F2F2;
+    width: 100px;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 35px;
+    padding: 190px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 1100px;
+    padding: 30px;
+}
+
+
+.grey{
+    color: #8c8686;
+
+}
+
+.grey:hover{
+    color: #ccc;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.soz{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 60px;
+    padding: 290px;
+}
+
+.suret{
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    width: 60px;
+    height: 30px;
+    background-color: #e9e7e7;
+    border-radius: 15px;
+    margin-left: 665px;
+    margin-top: 100px;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 45px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.opyt{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    background-color: #e9e7e7;
+    border-radius: 15px;
+    margin-left: 640px;
+    margin-top: 200px;
+}
+
+.work{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 45px;
+    margin-left: -55px;
+}
+
+.bari{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 100px;
+    gap: 50px;
+    margin-left: 100px;
+}
+
+.hate{
+    color: #ccc;
+}
+
+.Friend{
+    font-size: 25px;
+}
+
+.Co{
+    background-color: #e9e7e7;
+    border-radius: 15px;
+    width: 100px;
+}
+
+.Co p{
+    margin-left: 10px;
+}
+
+.ewe{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    background-color: #e9e7e7;
+    border-radius: 15px;
+    margin-left: 640px;
+    margin-top: 200px;
+}
+
+.imagetar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 40px;
+}
+
+
+  
+  @keyframes blurEffect {
+    0% {
+      filter: blur(0);
+    }
+    100% {
+      filter: blur(5px);
+    }
+  }
+.img1:hover{
+    animation: blurEffect 2s ease-in-out infinite alternate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
